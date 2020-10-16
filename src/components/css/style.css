@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+body{
+    background-color: #292929;
+}
+
+ul{
+    background-color: transparent;
+    height: 10em;
+    line-height: 5em;
+    color: white;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+li{
+    float: right;
+    list-style: none;
+    padding: 0 15px 0 15px;
+    cursor: pointer;
+}
+
+.nav-title{
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.img-container{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.first{
+    height: 600px;
+    background: linear-gradient(to bottom, rgba(17,205,247,1) 0%, rgba(132,248,168,1) 100%);
+}
+
+#first-shape{
+    transform: rotate(180deg);
+    margin-top: -1px;
+}
+
+
+.first-info{
+    padding: 50px;
+}
+
+.first-info p, .third-info p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 3em;
+    font-size: 20px;
+}
+
+/* SECOND PART */
+
+.second{
+    color: white;
+}
+
+.second h2{
+    padding: 50px 0 0 30px;
+}
+
+.second .beneficios{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    text-align: center;
+    margin-top: 50px;
+    z-index: 2000;
+    position: relative;
+}
+
+.second .box{
+    background-color: #1f1f1ff3;
+    height: 12rem;
+    width: 12rem;
+    transition: all 300ms;
+}
+
+.second .box:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+
+.second .box p{
+    line-height: 185px;
+}
+
+#bubbles{
+    position: absolute;
+    right: 0;
+    width: 250px;
+    z-index: 100;
+    top: 550px;
+}
+
+#second-shape{
+    transform: rotate(180deg);
+    margin-top: -1px;
+}
+
+.third{
+    height: 1300px;
+    background: linear-gradient(to bottom, rgba(249,67,67,1) 0%, rgba(249,67,67,1) 47%, rgba(34,7,0,1) 100%);
+    color: white;
+}
+
+.third h2{
+    padding-left: 30px;   
+}
+
+.fourth {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.fourth h2{
+    margin-bottom: 75px;
+}
+
+.fourth a{
+    text-decoration: none;
+    color: white;
+}
+
+.fourth a:hover{
+    text-decoration: underline;
+}
