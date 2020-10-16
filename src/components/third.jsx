@@ -13,9 +13,9 @@ export const Third = () => {
             </div>
             <div className="fourth">
                 <h2>Quienes somos?</h2>
-                <a href="https://github.com/juanMLuduena" target="_blank">Ludueña, Juan Martin</a> -
-                <a href="https://github.com/bpilegi98" target="_blank">Pilegi, Bianca</a> -
-                <a href="https://github.com/Agus17LA" target="_blank">López Aguillón, Agustín Ezequiel</a>
+                <a href="https://github.com/juanMLuduena" rel="noopener" target="_blank">Ludueña, Juan Martin</a> -
+                <a href="https://github.com/bpilegi98" rel="noopener" target="_blank">Pilegi, Bianca</a> -
+                <a href="https://github.com/Agus17LA" rel="noopener" target="_blank">López Aguillón, Agustín Ezequiel</a>
             </div>
         </div>
     )
